@@ -1,6 +1,3 @@
-
-markdown
-Skopiuj kod
 # Motivation Board App for Kids
 
 The **Motivation Board App** is a user-friendly and interactive platform designed to encourage children to achieve their goals through a reward system. Whether used at home with parents or in classrooms by preschool teachers, the app promotes positive reinforcement, goal-setting, and teamwork.
