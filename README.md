@@ -1,50 +1,45 @@
-# Welcome to your Expo app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+markdown
+Skopiuj kod
+# Motivation Board App for Kids
 
-## Get started
+The **Motivation Board App** is a user-friendly and interactive platform designed to encourage children to achieve their goals through a reward system. Whether used at home with parents or in classrooms by preschool teachers, the app promotes positive reinforcement, goal-setting, and teamwork.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## Features
 
-2. Start the app
+### For Parents:
+- Create personalized tasks for your child.  
+- Assign stars or points for completed tasks.  
+- Set a reward threshold to motivate your child (e.g., "Collect 50 stars to earn a toy").  
+- Track your child's progress and achievements.  
 
-   ```bash
-    npx expo start
-   ```
+### For Teachers:
+- Manage multiple classes with ease.  
+- Assign tasks and rewards for an entire class or individual students.  
+- View progress and performance for all students in real-time.  
+- Foster a collaborative and engaging environment in the classroom.  
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Why Use This App?
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- **Encourage Positive Behavior**: Help children understand the value of responsibility and effort.  
+- **Customizable Rewards**: Tailor rewards to what motivates your child or students most.  
+- **User-Friendly Interface**: Simple and intuitive design for both parents and educators.  
+- **Engaging for Kids**: Children enjoy collecting stars and working towards exciting rewards.  
 
-## Get a fresh project
+---
 
-When you're ready, run:
+## Figma Design (Work in Progress)
 
-```bash
-npm run reset-project
-```
+Check out the current design and progress on Figma: [Figma Link](#) 
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## Stay Connected
 
-To learn more about developing your project with Expo, look at the following resources:
+- **Website**: "/"  
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Help us inspire children to achieve their goals, one star at a time! 🚀
