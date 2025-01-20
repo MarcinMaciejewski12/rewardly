@@ -1,9 +1,6 @@
-
-import { View, Text, StyleSheet } from "react-native";
-
 import styled, { ThemeProvider } from "styled-components/native";
 import KidDashboardView from "./(screens)/dashboards/kidDashboard/KidDashboardView";
-import { theme } from "./theme/theme";
+import { GlobalTheme, theme } from "./theme/theme";
 
 export default function HomeScreen() {
   return (
@@ -20,7 +17,7 @@ export default function HomeScreen() {
 
 
 const IndexBackground = styled.View`
-background-color: ${({ theme }) => theme.colors.primary};
+background-color: ${({ theme }: GlobalTheme) => theme.colors.primary};
 height: 100%;
 width: 100%;
 `
