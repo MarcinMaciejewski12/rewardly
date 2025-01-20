@@ -1,5 +1,5 @@
-import { View, Text } from "react-native";
-import { KanbanLinkContainer } from "./KanbanLinkStyle";
+import { View } from "react-native";
+import { KanbanLinkContainer, KanbanLinkText } from "./KanbanLinkStyle";
 import { ReactElement } from "react";
 
 interface KanbanLinkProps {
@@ -8,15 +8,17 @@ interface KanbanLinkProps {
     text: string
 }
 
-export default function KanbanLink({
+export function KanbanLink({
     defaultColor,
     svg,
     text
 }: KanbanLinkProps) {
     return (
-        <KanbanLinkContainer $bgColor={defaultColor}>
-            {svg}
-            <Text>{text}</Text>
-        </KanbanLinkContainer>
+        <View style={{ flexDirection: "row", alignItems: "center" }}>
+            <KanbanLinkContainer $bgColor={defaultColor}>
+                {svg}
+            </KanbanLinkContainer>
+            <KanbanLinkText>{text}</KanbanLinkText>
+        </View>
     )
 }

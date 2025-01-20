@@ -12,14 +12,24 @@ export const HeaderContainer = styled.View`
     gap: ${({ theme }: GlobalTheme) => theme.gaps.defaultGap};
     `
 
+export const MyTaskskContainer = styled.View`
+    padding: ${({ theme }: GlobalTheme) => theme.paddings.default};
+`
+
+export const MyTaskskText = styled.Text`
+    font-size: ${({ theme }: GlobalTheme) => theme.fontsSizes.large};
+    font-weight: bold;
+
+`
+
 export const UserName = styled.Text`
-    font-size: ${({theme}: GlobalTheme) => theme.fontsSizes.large}
-    
+    font-size: ${({ theme }: GlobalTheme) => theme.fontsSizes.large};
+    font-weight: bold;
     `
 export const UserStar = styled.Text`
-    font-size: ${({theme}: GlobalTheme) => theme.fontsSizes.medium}
+    font-size: ${({ theme }: GlobalTheme) => theme.fontsSizes.medium}
     `
 
 export const TaskText = styled.Text`
-    font-size: ${({theme}: GlobalTheme) => theme.fontsSizes.large}
+    font-size: ${({ theme }: GlobalTheme) => theme.fontsSizes.large}
 `
