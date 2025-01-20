@@ -2,10 +2,10 @@ import { HeaderContainer, MyTaskskContainer, MyTaskskText, UserName, UserStar } 
 import { KanbanLink } from "@/app/components/kanbanLinks/KanbanLink";
 import { View, Text } from "react-native";
 import { theme } from "@/app/theme/theme";
-import { DefaultBoyIcon } from "@/assets/svg/defaultBoyIcon";
-import { TaskBoardIcon } from "@/assets/svg/taskBoard";
-import { InProgressIcon } from "@/assets/svg/inProgress";
-import { DoneIcon } from "@/assets/svg/done";
+import { DefaultBoyIcon } from "@/assets/svg/DefaultBoyIcon";
+import { TaskBoardIcon } from "@/assets/svg/TaskBoard";
+import { InProgressIcon } from "@/assets/svg/InProgress";
+import { DoneIcon } from "@/assets/svg/Done";
 
 
 

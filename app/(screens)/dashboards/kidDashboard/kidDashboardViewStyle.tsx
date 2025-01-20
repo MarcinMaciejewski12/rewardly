@@ -24,7 +24,7 @@ export const MyTaskskText = styled.Text`
 
 export const UserName = styled.Text`
     font-size: ${({ theme }: GlobalTheme) => theme.fontsSizes.large};
-    font-weight: bold;
+    font-weight: medium;
     `
 export const UserStar = styled.Text`
     font-size: ${({ theme }: GlobalTheme) => theme.fontsSizes.medium}

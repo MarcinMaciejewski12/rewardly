@@ -15,7 +15,6 @@ export default function HomeScreen() {
   );
 }
 
-
 const IndexBackground = styled.View`
 background-color: ${({ theme }: GlobalTheme) => theme.colors.primary};
 height: 100%;

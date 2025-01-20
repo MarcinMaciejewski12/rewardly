@@ -14,7 +14,7 @@ export function KanbanLink({
     text
 }: KanbanLinkProps) {
     return (
-        <View style={{ flexDirection: "row", alignItems: "center" }}>
+        <View style={{ flexDirection: "row", alignItems: "center", gap: 7 }}>
             <KanbanLinkContainer $bgColor={defaultColor}>
                 {svg}
             </KanbanLinkContainer>
